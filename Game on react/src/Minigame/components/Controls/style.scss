@@ -1,0 +1,49 @@
+.controls{
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 100%;
+    justify-content: space-between;
+    margin: 0 0 0 20px;
+    padding: 20px;
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.7);
+
+    &>button{
+        height: 30px;
+        border-radius: 5px;
+        border-style: none;
+        color: #fff;
+
+    }
+
+    &-eat{
+        background-color: #E74C3C;
+
+        &:active{
+            background-color: #C0392B;
+        }
+    }
+
+    &-drink{
+        background-color: #3498DB;
+
+        &:active{
+            background-color: #2980B9;
+        }
+    }
+
+    &-relax{
+        background-color: #E67E22;
+
+        &:active{
+            background-color: #D35400;
+        }
+    }
+
+    &-work{
+        background-color: #95A5A6;
+        
+        &:active{
+            background-color: #7F8C8D;
+        }
+    }
+}

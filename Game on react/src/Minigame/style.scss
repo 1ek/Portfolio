@@ -1,0 +1,11 @@
+.minigame{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    &-interfaсe{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

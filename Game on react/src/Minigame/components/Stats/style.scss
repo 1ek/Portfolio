@@ -1,0 +1,27 @@
+.stats{
+    flex: 0 1 100%;
+    padding: 20px;
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.7);
+
+
+    &-desc:not(:first-child){
+        margin-top: 10px;    
+    }
+
+    &-hp::-webkit-progress-value{
+        background-color: #ff0000;
+    }
+
+    &-thirst::-webkit-progress-value{
+        background-color: #3498DB;
+    }
+
+    &-hungry::-webkit-progress-value{
+        background-color: #E67E22;
+    }
+
+    &-fatigue::-webkit-progress-value{
+        background-color: #34495E;
+    }
+
+}
